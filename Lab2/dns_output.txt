@@ -1,0 +1,5 @@
+A: 100.20.29.191
+A: 52.12.247.40
+A: 44.245.172.95
+MX: not available
+CNAME: www.dradis.netflix.com.

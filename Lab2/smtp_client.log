@@ -1,0 +1,49 @@
+2025-09-05 01:16:38,906 - INFO - Connecting to smtp.gmail.com:587
+2025-09-05 01:16:40,393 - INFO - Starting TLS encryption
+2025-09-05 01:16:41,797 - INFO - Logging in as yagyeshanshul@gmail.com
+2025-09-05 01:16:43,942 - ERROR - SMTP process failed
+Traceback (most recent call last):
+  File "c:\Users\yagye\OneDrive\Desktop\SEM-5\CN\labs\Lab2\smtp_client.py", line 36, in smtp_client
+    conn.login(user, pwd)
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b4f8fa2bbcesm9179702a12.4 - gsmtp')
+2025-09-05 01:17:16,747 - INFO - Connecting to smtp.gmail.com:587
+2025-09-05 01:17:18,232 - INFO - Starting TLS encryption
+2025-09-05 01:17:19,343 - INFO - Logging in as yagyeshanshul@gmail.com
+2025-09-05 01:17:20,919 - ERROR - SMTP process failed
+Traceback (most recent call last):
+  File "c:\Users\yagye\OneDrive\Desktop\SEM-5\CN\labs\Lab2\smtp_client.py", line 36, in smtp_client
+    conn.login(user, pwd)
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b5207352e9csm243271a12.48 - gsmtp')
+2025-09-05 01:18:47,887 - INFO - Connecting to smtp.gmail.com:587
+2025-09-05 01:18:49,481 - INFO - Starting TLS encryption
+2025-09-05 01:18:50,754 - INFO - Logging in as yagyeshanshul@gmail.com
+2025-09-05 01:18:52,399 - ERROR - SMTP process failed
+Traceback (most recent call last):
+  File "c:\Users\yagye\OneDrive\Desktop\SEM-5\CN\labs\Lab2\smtp_client.py", line 36, in smtp_client
+    conn.login(user, pwd)
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\yagye\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-24c9e39094dsm47903355ad.84 - gsmtp')
+2025-09-05 01:22:50,276 - INFO - Connecting to smtp.gmail.com:587
+2025-09-05 01:22:52,186 - INFO - Starting TLS encryption
+2025-09-05 01:22:55,132 - INFO - Logging in as yagyeshanshul@gmail.com
+2025-09-05 01:22:59,493 - INFO - Email sent successfully to ['anshulyagyesh@gmail.com']
